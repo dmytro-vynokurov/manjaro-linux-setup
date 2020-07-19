@@ -126,3 +126,14 @@ sudo systemctl enable docker.service
 sudo pamac install docker-compose
 ```
 
+## Rust 
+
+Install rustup, toolchains and setup code completion 
+
+```bash
+ pamac install rustup
+ rustup toolchain install stable 
+ rustup toolchain install nightly 
+ rustup default nightly 
+ vim +CocInstall coc-rls
+ ```
