@@ -79,6 +79,11 @@ Now it should be possible to switch to zsh:
 zsh
 ```
 
+Install coding fonts 
+```bash 
+sudo pamac install nerd-fonts-dejavu-complete
+```
+
 ## Configure git 
 
 git expects user data to be set. Also, default editor has to be changed to vim (nvim)
