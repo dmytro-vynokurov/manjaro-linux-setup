@@ -91,6 +91,7 @@ git expects user data to be set. Also, default editor has to be changed to vim (
 git config --global user.email "dmytro.vynokurov@gmail.com"
 git config --global user.name "Dmytro Vynokurov"
 git config --global core.editor vim
+```
 
 ## Sdkman and java 
 
