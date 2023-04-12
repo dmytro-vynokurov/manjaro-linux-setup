@@ -142,3 +142,12 @@ Install rustup, toolchains and setup code completion
  rustup default nightly 
  vim +CocInstall coc-rls
  ```
+ 
+ ## WiFi
+ 
+ Disable power management 
+```
+sudo echo "options iwlwifi power_save=0\n\
+options iwlmvm power_scheme=1" > /etc/modprobe.d/iwlwifi.conf 
+```
+ 
